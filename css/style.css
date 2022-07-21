@@ -1,0 +1,136 @@
+body {
+  font-family: "Monserrat", sans-serif;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: #072b73;
+  height: 4rem;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar .nav-item a:hover,
+.navbar .navbar-brand {
+  color: #fff;
+  font-weight: 600;
+}
+
+.container {
+  padding-top: 4rem;
+  background-color: #eee;
+}
+
+.atual {
+  font-weight: 600;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo_descricao {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 20px;
+  margin: 20px 0 20px 0;
+}
+
+.img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.descricao {
+  padding: 20px 160px 20px 160px;
+  line-height: 24px;
+}
+
+.buscas {
+  display: flex;
+  justify-content: space-evenly;
+  height: 690px; /*provisório*/
+}
+
+.tabelas {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-weight: 600;
+  height: 690px; /*provisório*/
+}
+
+.cadastrar {
+  display: flex;
+  justify-content: center;
+  height: 690px; /*provisório*/
+}
+
+.inputsCadastrar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  height: 690px; /*provisório*/
+}
+
+.modalLogin {
+  margin-top: 3%;
+  width: 399.67px;
+  height: 560px;
+  background-color: #f4f4f4;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.cancelar {
+  text-decoration: none;
+  width: 100%;
+  height: 25px;
+  background-color: #f0f0f0;
+  color: #000;
+  padding-left: 125px;
+  padding-top: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.administrador {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 15%;
+  height: 690px; /*provisório*/
+}
+
+.manual,
+.csv {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}

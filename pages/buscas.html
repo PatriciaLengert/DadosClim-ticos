@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="port">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- 
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+    </style> -->
+
+    <title>Dados</title>
+  </head>
+
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand titulo ms-3" href="../index.html"
+            >Dados Climáticos</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link mx-3" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 atual" href="buscas.html">Buscas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="tabelas.html">Tabelas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="cadastrar.html">Cadastrar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="login.html">Login ADM</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <section class="container px-0">
+          <div class="buscas">
+            <div class="porData mt-5">
+              <p class="tituloSecao">Selecione a data</p>
+              <input type="date">
+              <input type="submit" value="Buscar" >
+              <div>
+                <p> Aqui virá o resultado da pesquisa</p>
+              </div>
+            </div>
+            <div class="porPeriodo mt-5">
+              <p class="tituloSecao">Selecione o período</p>
+              <p>Data de início</p>
+              <input type="date">
+              <p>Data de fim</p>
+              <input type="date">
+              <input type="submit" value="Buscar" >
+              <div>
+                <p> Aqui virá o resultado da pesquisa</p>
+              </div>
+            </div>
+          </div>
+      </section>
+  </main>
+  </body>
+</html>
