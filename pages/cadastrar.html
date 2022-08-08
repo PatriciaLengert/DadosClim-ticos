@@ -13,11 +13,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <!-- 
+
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
-    </style> -->
-
+    </style>
     <title>Dados</title>
   </head>
 
@@ -45,7 +44,10 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link mx-3" aria-current="page" href="../index.html"
+                <a
+                  class="nav-link mx-3"
+                  aria-current="page"
+                  href="../index.html"
                   >Home</a
                 >
               </li>
@@ -74,25 +76,48 @@
         <div class="cadastrar">
           <div class="inputsCadastrar">
             <div class="cadastroEmail">
-              <p>
+              <p class="mb-4">
                 Para receber atualizações sobre os dados cadastre seu e-mail
               </p>
-              <div class="inputs">
-                <input type="text" />
-                <input type="submit" value="Cadastrar" />
+              <div class="inputsCadastrar">
+                <input type="text" class="cadastro" />
+                <input
+                  type="submit"
+                  value="Cadastrar"
+                  name="cadastrar"
+                  class="mt-4 botaoCadastro"
+                />
               </div>
             </div>
             <div class="contatoEmail">
-              <p>
+              <p class="mb-4">
                 Ou caso necessite de alguma informação personalizada, preencha o
                 formulário abaixo
               </p>
-              <div class="inputs">
-                <label for="assunto">Assunto</label>
-                <input type="text" id="assunto" />
-                <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" rows="5" cols="30"></textarea>
-                <input type="submit" value="Enviar" />
+              <div class="inputsCadastrar">
+                <label for="assunto" class="labelCadastro mb-2">Assunto</label>
+                <input type="text" id="assunto" class="cadastro" />
+                <label for="mensagem" class="labelCadastro mt-3 mb-2">Mensagem</label>
+                <textarea
+                  id="mensagem"
+                  rows="5"
+                  cols="30"
+                  class="cadastroTA"
+                ></textarea>
+                <div class="botoesFooter">
+                  <input
+                    type="submit"
+                    value="Cancelar"
+                    name="cancelar"
+                    class="mt-4 botaoCancelar"
+                  />
+                  <input
+                    type="submit"
+                    value="Enviar"
+                    name="enviar"
+                    class="mt-4 botaoEnviar"
+                  />
+                </div>
               </div>
             </div>
           </div>
