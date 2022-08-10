@@ -101,6 +101,20 @@ body {
   width: 200px;
 }
 
+.tableBuscas{
+  background-color: #ffff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+.td{
+  text-align: right;
+}
+
+.th{
+  font-weight: 600;
+}
+
 .tabelas {
   display: flex;
   justify-content: center;
@@ -278,6 +292,23 @@ body {
 .csv {
   display: flex;
   flex-direction: column;
+}
+
+.botaoHeader{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.botaoSair{
+  text-align: center;
+  background-color: #072b73;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
 }
 
 .botoesADM{
