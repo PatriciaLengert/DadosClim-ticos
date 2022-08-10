@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="port">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- 
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+    </style> -->
+
+    <title>Dados</title>
+  </head>
+
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand titulo ms-3" href="../index.html"
+            >Dados Climáticos</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link mx-3" aria-current="page" href="../index.php"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="buscas.php">Buscas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 atual" href="tabelas.php">Tabelas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="cadastrar.php">Cadastrar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="administrador.php">Administração</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <section class="container px-0">
+        <div class="tabelas">
+            <p>Nesta tela serão apresentados algumas tabelas / relatórios relacionados aos dados</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
